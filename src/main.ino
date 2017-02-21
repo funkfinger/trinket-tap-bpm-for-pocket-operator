@@ -44,7 +44,6 @@ void setup() {
   
   sei(); // turn on interupts...
   
-  
   // setup OLED...
   delay(40);
   ssd1306_init();
@@ -105,7 +104,7 @@ uint8_t checkButton() {
     buttonDown++;
   }
   else {
-    if(buttonDown > 10) {
+    if(buttonDown > BUTTON_DEBOUNCE_TIME) {
       returnValue = 1; // set return value on release....
     }
     buttonDown = 0;
