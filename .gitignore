@@ -27,3 +27,7 @@
 *.exe
 *.out
 *.app
+.pioenvs
+.piolibdeps
+
+.DS_Store
