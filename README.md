@@ -1,10 +1,8 @@
 # trinket-tap-bpm-for-pocket-operator
 
-A Adafruit Trinket-based button that outputs a Teenage Engineering Pocket Operator sync track. I made this Trinket version after I made a straight-up ATtiny85 / GCC version because the Trinket board is probably easier for most folks to get started with.
+An [Adafruit Trinket](https://www.adafruit.com/products/1501)-based button that outputs a [Teenage Engineering Pocket Operator](https://teenageengineering.com/products/po) sync track. I made this Trinket version after I made a [straight-up ATtiny85 / GCC version](http://jaywiggins.com/pocket%20operator/teenage%20engineering/bpm/sync/2016/04/25/teenage-engineering-pocket-operator-tap-sync/) because the Trinket board is probably easier for most folks to get started with.
 
-[![Trinket-based Tap BPM for Pocket Operator](https://img.youtube.com/vi/PH5dn6jR41Q/0.jpg)](https://www.youtube.com/watch?v=PH5dn6jR41Q)
-
-I personally like using [http://platformio.org/](Platformio) for my AVR (Arduino) builds - but I think you could (with possibly a little file re-arrangement) build this inside the Arduino IDE. Let me know...
+I personally like using [Platformio](http://platformio.org/) for my AVR (Arduino) builds - but I think you could - with a little file re-arrangement - build this inside the Arduino IDE. Let me know...
 
 ### BOM - required...
 
@@ -62,3 +60,4 @@ To burn (Trinket needs to be freshly reset to enter boot loader mode - pulsating
 To clean:
     
     platformio run -t clean
+
