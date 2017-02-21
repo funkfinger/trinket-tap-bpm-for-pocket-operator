@@ -123,6 +123,10 @@ void updateDisplay() {
   ssd1306_setpos(5, 4);
   ssd1306_string_font6x8("TAPS: ");
   ssd1306_numdec_font6x8(consecutiveButtonTaps);
+  // ssd1306_setpos(5, 6);
+  // ssd1306_numdec_font6x8(tick);
+  // ssd1306_string_font6x8(" - ");
+  // ssd1306_numdec_font6x8(millis());
 }
 
 
